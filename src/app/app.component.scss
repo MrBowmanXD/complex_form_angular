@@ -1,0 +1,40 @@
+#element {
+  width: 100%;
+
+  .e-toolbar.e-control[class*="e-toolbar"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .e-tab .e-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.Next {
+  text-align: right;
+  margin-top: 25px;
+  margin-right: 750px;
+  .next {
+    background-color: #3f51b5;
+    color: white;
+  }
+}
+
+
+
+#loader {
+  color: #008cff;
+  height: 40px;
+  left: 45%;
+  position: absolute;
+  top: 45%;
+  width: 30%;
+}
